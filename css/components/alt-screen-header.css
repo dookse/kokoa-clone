@@ -1,0 +1,32 @@
+.alt-header {
+  margin-top: 20px;
+  padding: var(--horizontal-space);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #191919;
+}
+
+.alt-header__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.alt-header__column {
+  font-size: 19px;
+  width: 33%;
+}
+
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
+
+.alt-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-header__column:last-child i {
+  margin-left: 20px;
+}
